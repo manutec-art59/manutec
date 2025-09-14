@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MANUTEC - Serviços Elétricos Industriais</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #1e3a8a; /* Fundo azul escuro */
+    }
+  </style>
+</head>
+<body class="text-gray-900">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <!-- Logo com imagem fornecida -->
+        <div class="w-16 h-16 rounded-md bg-white flex items-center justify-center border-4 border-yellow-400 overflow-hidden">
+          <img src="logo.png" alt="Logo MANUTEC" class="w-full h-full object-contain"/>
+        </div>
+        <div>
+          <h1 class="text-2xl font-semibold text-white">MANUTEC</h1>
+          <p class="text-sm text-yellow-200">Qualidade, segurança e eficiência para sua indústria</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#sobre" class="hover:underline text-white">Sobre</a>
+        <a href="#servicos" class="hover:underline text-white">Serviços</a>
+        <a href="#swot" class="hover:underline text-white">SWOT</a>
+        <a href="#contato" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-md font-bold border-2 border-white">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <!-- Hero -->
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold leading-tight text-white">Soluções elétricas industriais 24h</h2>
+        <p class="mt-4 text-yellow-100">Atendemos indústrias de médio e grande porte com manutenção preventiva e corretiva, projetos de eficiência energética e suporte para alta e baixa tensão. Atendimento 24 horas e equipe certificada.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contato" class="bg-yellow-400 text-blue-900 px-5 py-3 rounded-md shadow font-bold border-2 border-white">Pedir orçamento</a>
+          <a href="#servicos" class="border border-white text-white px-5 py-3 rounded-md">Nossos serviços</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="font-semibold text-blue-900">Resumo rápido</h3>
+        <ul class="mt-4 space-y-2 text-sm text-gray-700">
+          <li>Capital social inicial: R$ 100.000,00</li>
+          <li>Atuação: metalúrgicas, alimentícias, químicas, automotivas e têxteis</li>
+          <li>Equipe técnica treinada e certificada</li>
+          <li>Atendimento 24/7 e projetos de redução de custos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow border-l-8 border-yellow-400">
+        <h4 class="font-semibold text-blue-900">Missão</h4>
+        <p class="mt-2 text-gray-700 text-sm">Proporcionar qualidade de serviço e atendimento diferenciado, fidelizando clientes e contribuindo para o futuro e segurança das operações industriais.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow border-l-8 border-yellow-400">
+        <h4 class="font-semibold text-blue-900">Visão</h4>
+        <p class="mt-2 text-gray-700 text-sm">Ser reconhecida pela excelência operacional, compromisso com a segurança e por superar expectativas do mercado.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow border-l-8 border-yellow-400">
+        <h4 class="font-semibold text-blue-900">Valores</h4>
+        <p class="mt-2 text-gray-700 text-sm">Transparência, honestidade, ética profissional e responsabilidade com clientes e colaboradores.</p>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="mt-12 grid lg:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow border-t-4 border-yellow-400">
+        <h3 class="font-semibold text-lg text-blue-900">Serviços</h3>
+        <ul class="mt-4 space-y-3 text-gray-700 text-sm">
+          <li>Manutenção preventiva e corretiva (alta e baixa tensão)</li>
+          <li>Projetos de eficiência energética e redução de custos</li>
+          <li>Atendimento emergencial 24 horas</li>
+          <li>Consultoria e conformidade com normas técnicas</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow border-t-4 border-yellow-400">
+        <h3 class="font-semibold text-lg text-blue-900">Estrutura e bens</h3>
+        <p class="text-sm text-gray-700 mt-2">Nossa estrutura conta com frota e equipamentos adequados para intervenções industriais:</p>
+        <ul class="mt-3 text-sm text-gray-700 space-y-1">
+          <li>- 5 veículos utilitários (Fiat Strada)</li>
+          <li>- Terreno e instalações</li>
+          <li>- Ferramentas e equipamentos elétricos especializados</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SWOT -->
+    <section id="swot" class="mt-12 bg-white p-6 rounded-lg shadow border-b-4 border-yellow-400">
+      <h3 class="font-semibold text-blue-900">Análise SWOT</h3>
+      <div class="mt-4 grid md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-medium text-blue-900">Forças</h4>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
+            <li>Equipe qualificada e certificada</li>
+            <li>Atendimento especializado e reputação</li>
+            <li>Capacidade de resposta rápida</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-medium text-blue-900">Fraquezas</h4>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
+            <li>Dependência de contratos específicos</li>
+            <li>Necessidade constante de investimento em tecnologia</li>
+            <li>Marketing pouco explorado</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-medium text-blue-900">Oportunidades</h4>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
+            <li>Expansão para novos segmentos</li>
+            <li>Parcerias estratégicas com fornecedores</li>
+            <li>Serviços de eficiência energética</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-medium text-blue-900">Ameaças</h4>
+          <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
+            <li>Concorrência crescente</li>
+            <li>Mudanças regulatórias</li>
+            <li>Crises econômicas que reduzam investimentos industriais</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="mt-12 grid md:grid-cols-2 gap-6 items-start">
+      <div class="bg-white p-6 rounded-lg shadow border-l-8 border-yellow-400">
+        <h3 class="font-semibold text-blue-900">Fale conosco</h3>
+        <p class="mt-2 text-sm text-gray-700">Preencha o formulário abaixo e nossa equipe entrará em contato para um orçamento técnico.</p>
+        
+        <!-- Simulado de Orçamento Profissional -->
+        <div class="my-6 bg-blue-50 border-l-4 border-yellow-400 p-4 rounded">
+          <h4 class="font-bold text-blue-900 mb-2">Simulado de Orçamento</h4>
+          <table class="w-full text-sm text-blue-900 mb-3">
+            <thead>
+              <tr>
+                <th class="text-left py-1">Serviço</th>
+                <th class="text-left py-1">Valor estimado</th>
+                <th class="text-left py-1">Prazo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b">
+                <td class="py-1">Manutenção preventiva (até 150 kVA)</td>
+                <td class="py-1 font-semibold text-yellow-600">R$ 2.500,00</td>
+                <td class="py-1">2 dias úteis</td>
+              </tr>
+              <tr class="border-b">
+                <td class="py-1">Manutenção corretiva emergencial</td>
+                <td class="py-1 font-semibold text-yellow-600">R$ 4.200,00</td>
+                <td class="py-1">24 horas</td>
+              </tr>
+              <tr class="border-b">
+                <td class="py-1">Projeto de eficiência energética</td>
+                <td class="py-1 font-semibold text-yellow-600">R$ 7.800,00</td>
+                <td class="py-1">7 dias úteis</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-xs text-gray-700">* Valores ilustrativos. O orçamento final será enviado após análise técnica detalhada do serviço solicitado.</p>
+        </div>
+        <!-- Fim do Simulado -->
+        
+        <form class="mt-4 space-y-3">
+          <input class="w-full border rounded-md px-3 py-2 text-sm border-yellow-400" placeholder="Nome / Empresa" />
+          <input class="w-full border rounded-md px-3 py-2 text-sm border-yellow-400" placeholder="E-mail" />
+          <input class="w-full border rounded-md px-3 py-2 text-sm border-yellow-400" placeholder="Telefone" />
+          <textarea class="w-full border rounded-md px-3 py-2 text-sm border-yellow-400" placeholder="Descrição do serviço desejado" rows="4"></textarea>
+          <div class="flex gap-3">
+            <button type="button" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded-md border-2 border-white font-bold">Enviar</button>
+            <button type="reset" class="border px-4 py-2 rounded-md border-yellow-400 text-yellow-400">Limpar</button>
+          </div>
+        </form>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow border-l-8 border-yellow-400">
+        <h3 class="font-semibold text-blue-900">Localização</h3>
+        <p class="mt-2 text-sm text-gray-700">Sede: São Leopoldo, RS.</p>
+        <h4 class="mt-4 font-medium text-blue-900">Redes e contatos</h4>
+        <p class="mt-2 text-sm text-gray-700">
+          Telefone: (51) 99999-1234<br/>
+          E-mail: <a href="mailto:manutec370@gmail.com" class="text-blue-900 font-bold underline">manutec370@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-center text-sm text-yellow-200">
+      <p>© <script>document.write(new Date().getFullYear())</script> MANUTEC — Todos os direitos reservados.</p>
+    </footer>
+  </main>
+</body>
+</html>
